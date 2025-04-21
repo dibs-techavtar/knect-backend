@@ -4,6 +4,8 @@
   "description": "Backend of KnectHotels to streamline hotel operations by providing effi platform for hotels.",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write .",
+    "eslint:fix":"eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/dibs-techavtar/knect-backend/issues"
   },
-  "homepage": "https://github.com/dibs-techavtar/knect-backend#readme"
+  "homepage": "https://github.com/dibs-techavtar/knect-backend#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3"
+  }
 }
